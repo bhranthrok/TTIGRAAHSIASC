@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://pmpu8rvhio8o"]
+
+[ext_resource type="PackedScene" uid="uid://5dggnntxpp3e" path="res://Scenes/wizard.tscn" id="1_edwd6"]
+
+[node name="WizardL" instance=ExtResource("1_edwd6")]
+
+[node name="AnimatedSprite2D" parent="." index="1"]
+position = Vector2(-4, -2)
+scale = Vector2(1, -1)
+flip_h = true
